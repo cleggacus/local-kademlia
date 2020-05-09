@@ -1,0 +1,18 @@
+{
+  "name": "local-kademlia",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn run ts-node src/index.ts",
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "@types/node": "^12.12.21",
+    "@types/socket.io-client": "^1.4.32",
+    "crypto": "^1.0.1",
+    "socket.io-client": "^2.3.0",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3"
+  }
+}
